@@ -1,0 +1,131 @@
+<!-- DEVELOPER: Joseph Kane, IS117-001, Fall 2023 -->
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Open Repertoire</title>
+  
+    <link rel="shortcut icon" href="images/favicons/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
+  
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+
+  <body class="d-flex flex-column h-100">
+
+
+    <br>
+    <header>
+      <h2 id="title">OpenRepertoire</h2>
+      <h3>Contact</h3>
+
+      <nav class="interiorNav navbar navbar-expand-md navbar-light" >
+      
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <img src="images/logo.png" alt="Toggle" width="30" height="30">
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+            <ul class="navbar-nav">
+              
+              <li class="nav-item dropdown">
+                <a data-inviewport="navitem1" class="current nav-link active" href="home.html">
+                  Home
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a data-inviewport="navitem2" class="nav-link active" href="history.html">
+                  History
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a data-inviewport="navitem3" class="nav-link active" href="principles.html">
+                  Principles
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a data-inviewport="navitem4" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown">
+                  Explorations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="giuocopiano.html">The Giuoco Piano</a></li>
+                  <li><a class="dropdown-item" href="sicilian.html">The Sicilian</a></li>
+                  <li><a class="dropdown-item" href="london.html">The London</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a data-inviewport="navitem5" class="nav-link active" href="contact.html">
+                  Contact
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="firstname" style="color:White">First Name:</label>
+                            <input type="text" class="form-control" id="firstname"
+                            placeholder="First name" name="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" style="color:White">Last Name:</label>
+                            <input type="text" class="form-control" id="lastname"
+                            placeholder="Last name" name="lastname">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" style="color:White">Email:</label>
+                            <input type="email" class="form-control" id="email"
+                            placeholder="Enter email" name="email" style="color:White">
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label"  style="color:White">
+                                <input class="form-check-input"
+                                type="checkbox" name="subscribe"> Subscribe
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <footer class="footer page-footer font-small mt-auto py-3" data-mdb-sticky-init data-mdb-sticky-position="bottom">
+      <div class="container">
+          <div class="row">
+              <span class="text-muted">&copy; Joseph Kane, 2023 |  <a href="#">Terms Of Use</a>  |  <a href="#">Privacy Statement</a></span>
+          </div>
+      </div>
+  </footer>
+
+   
+  </body>
+</html>
